@@ -1,7 +1,7 @@
 #------------------------------------------------------------------
 #	Paths
 #------------------------------------------------------------------
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH	# MacPorts
+export PATH=/usr/local/mysql/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH	# MacPorts
 export PATH=~/bin:$PATH				                # Personal
 
 
