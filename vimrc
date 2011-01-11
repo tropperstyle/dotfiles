@@ -47,7 +47,7 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-nnoremap <leader>a :Ack 
+nnoremap <leader>a :Ack -Q 
 nnoremap <leader>v V`]
 nnoremap <leader>w <C-w>v<C-w>l
 
