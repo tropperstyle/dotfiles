@@ -19,8 +19,6 @@ set ttyfast
 set backspace=indent,eol,start
 set laststatus=2
 
-nnoremap / /\v
-vnoremap / /\v
 set ignorecase
 set smartcase
 set gdefault
