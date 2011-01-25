@@ -89,4 +89,7 @@ if has("gui_running")
   highlight javaScriptGlobal guifg=#94859D guibg=Black
   highlight javaScriptRegexpString guifg=#E1C062 guibg=Black
  
+" Improve autocomplete menu color
+  highlight Pmenu ctermfg=1 ctermbg=4 guibg=grey30
+ 
 endif
