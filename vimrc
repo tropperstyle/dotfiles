@@ -18,6 +18,7 @@ set cursorline
 set ttyfast
 set backspace=indent,eol,start
 set laststatus=2
+set scrolloff=10
 
 set ignorecase
 set smartcase
