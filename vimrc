@@ -59,9 +59,5 @@ let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_classes_in_global = 1
 let g:rubycomplete_rails = 1
 
-" Reverse autocomplete
-let g:SuperTabMappingForward = '<s-tab>'
-let g:SuperTabMappingBackward = '<tab>'
-
 au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
 
