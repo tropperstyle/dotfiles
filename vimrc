@@ -18,7 +18,6 @@ set cursorline
 set ttyfast
 set backspace=indent,eol,start
 set laststatus=2
-set scrolloff=10
 
 set ignorecase
 set smartcase
@@ -26,6 +25,7 @@ set gdefault
 set incsearch
 set showmatch
 set hlsearch
+set nofoldenable
 nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
@@ -39,6 +39,9 @@ filetype plugin indent on
 
 let g:CommandTMaxFiles=80000
 let g:CommandTMaxHeight=10
+
+" Turn off matching param highlight
+let g:loaded_matchparen= 1
 
 " Shortcuts for moving between split windows
 map <C-h> <C-w>h
