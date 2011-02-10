@@ -1,2 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.2'
+let g:netrw_dirhist_2='/usr/local/lib/ruby/gems/1.8/gems/haml-3.0.25/lib/haml'
+let g:netrw_dirhist_3='/usr/local/lib/ruby/gems/1.8/gems/haml-3.0.25'
+let g:netrw_dirhist_4='/usr/local/lib/ruby/gems/1.8/gems/haml-edge-3.1.79/lib/haml'
