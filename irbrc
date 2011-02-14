@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'looksee'
+require 'looksee/shortcuts'
 require 'awesome_print'
 require 'hirb'
 require 'wirble'
