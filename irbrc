@@ -1,9 +1,10 @@
 require 'rubygems'
-require 'looksee/shortcuts'
+require 'looksee'
+require 'awesome_print'
 require 'hirb'
 require 'wirble'
 
+Hirb.enable
 Wirble.init
 Wirble.colorize
-Hirb.enable
 
