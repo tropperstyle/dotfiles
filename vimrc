@@ -27,7 +27,7 @@ set showmatch
 set hlsearch
 set nofoldenable
 nnoremap <leader><space> :noh<cr>
-inoremap <S-CR> <Esc>
+inoremap ;; <Esc>
 nnoremap <tab> %
 vnoremap <tab> %
 

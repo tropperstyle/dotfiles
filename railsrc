@@ -1,0 +1,11 @@
+IRB.conf[:IRB_RC] = Proc.new do
+	rubygems_require 'looksee/shortcuts'
+	rubygems_require 'awesome_print'
+	rubygems_require 'hirb'
+	rubygems_require 'wirble'
+
+	Wirble.init
+	Wirble.colorize
+	Hirb.enable(:pager => false)
+	ActiveRecord::Base.connection.instance_variable_set :@logger, Logger.new(STDOUT)
+end
