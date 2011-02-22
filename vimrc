@@ -41,6 +41,11 @@ filetype plugin indent on
 let g:CommandTMaxFiles=80000
 let g:CommandTMaxHeight=10
 
+" Disable swap/backup files
+set nobackup
+set nowritebackup
+set noswapfile
+
 " Turn off matching param highlight
 let g:loaded_matchparen= 1
 
