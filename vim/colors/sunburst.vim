@@ -120,10 +120,9 @@ if has("gui_running")
 
 	highlight lineNr guifg=#505050 guibg=Black
 	highlight VertSplit guifg=#DEDEDE guibg=#888888
-	highlight IncSearch guibg=#16181A
+	highlight IncSearch guibg=#4f5da8
 	highlight Cursor guibg=#90aabf
 	highlight CursorLine guibg=#141c22
-	highlight Search guibg=#16181A guifg=NONE
 	highlight MatchParen guibg=#DDDDDD guifg=#000000
 
 	" Some defaults for all languages
