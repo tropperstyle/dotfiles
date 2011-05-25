@@ -24,18 +24,4 @@ fix_permissions() {
 project() { cd ~/Source/$1; }
 complete -W "$(echo `ls ~/Source | cut -f 1 -d ' ' | sed -e s/,.*//g | uniq | grep -v "\["`;)" project
 
-#------------------------------------------------------------------
-#	Git Auto Completion
-#------------------------------------------------------------------
-_complete_git() {
-  if [ -d .git ]; then
-    branches=`git branch -a | cut -c 3-`
-    tags=`git tag`
-    cur="${COMP_WORDS[COMP_CWORD]}"
-    COMPREPLY=( $(compgen -W "${branches} ${tags}" -- ${cur}) )
-  fi
-}
-complete -F _complete_git git checkout
-
-
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
