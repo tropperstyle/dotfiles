@@ -1,10 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/admin/workspace/ioffer/app/views/questions'
-let g:netrw_dirhist_2='/Users/admin/workspace/ioffer/app/views/negotiations/show/logged_in/center/pre_transaction'
-let g:netrw_dirhist_3='/Users/admin/workspace/ioffer/app/views/negotiations/show/logged_in/center/pre_transaction/forms'
-let g:netrw_dirhist_4='/Users/admin/workspace/ioffer/app/views/negotiations/show/logged_in/center/pre_transaction'
-let g:netrw_dirhist_5='/Users/admin/workspace/ioffer/app/views/negotiations/show/logged_in/center'
-let g:netrw_dirhist_6='/Users/admin/workspace/ioffer/app/views/negotiations/show/logged_in/center/pre_transaction'
-let g:netrw_dirhist_7='/Users/admin/workspace/ioffer-old/original/.git/logs/refs/heads'
-let g:netrw_dirhist_8='/Users/admin/Desktop/Juice-1'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.2/lib/action_controller'
+let g:netrw_dirhist_2='/Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.2/lib/action_view'
+let g:netrw_dirhist_3='/Users/admin/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-2.3.2/lib/action_controller'
