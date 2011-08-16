@@ -3,6 +3,7 @@
 #------------------------------------------------------------------
 export PATH=/usr/local/mysql/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH	# MacPorts
 export PATH=~/bin:$PATH				                			# Personal
+export PATH=/usr/local/share/npm/bin:$PATH						# Node JS
 export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
 
 
