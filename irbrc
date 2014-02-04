@@ -1,3 +1,4 @@
+if RUBY_VERSION == '1.8.7'
 IRB.conf[:IRB_RC] = Proc.new do
   Gem.source_index.refresh! if defined?(Bundler)
 
@@ -11,4 +12,5 @@ IRB.conf[:IRB_RC] = Proc.new do
   Wirble.colorize
   Hirb.enable(:pager => false)
   ActiveRecord::Base.connection.instance_variable_set :@logger, Logger.new(STDOUT) if defined?(ActiveRecord)
+end
 end
