@@ -9,4 +9,6 @@ endif
 
 runtime! ftplugin/sass.vim
 
+set sw=2 sts=2
+
 " vim:set sw=2:
